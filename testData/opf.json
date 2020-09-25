@@ -1,0 +1,161 @@
+{
+    "desiredTagName": "package",
+    "attributesObj": {
+        "xmlns": "http://www.idpf.org/2007/opf"
+    },
+    "innerText": "",
+    "isSelfClosing": false,
+    "children": [
+        {
+            "desiredTagName": "metadata",
+            "attributesObj": {
+                "xmlns:dc": "http://purl.org/dc/elements/1.1"
+            },
+            "innerText": "",
+            "isSelfClosing": false,
+            "children": [
+                {
+                    "desiredTagName": "meta",
+                    "attributesObj": {
+                        "name": "Test opf File Generator"
+                    },
+                    "innerText": "",
+                    "isSelfClosing": true,
+                    "children": []
+                },
+                {
+                    "desiredTagName": "dc:title",
+                    "attributesObj": {},
+                    "innerText": "Test Generator Title",
+                    "isSelfClosing": false,
+                    "children": []
+                },
+                {
+                    "desiredTagName": "dc:date",
+                    "attributesObj": {},
+                    "innerText": "2020-02-18T23:41:37",
+                    "isSelfClosing": false,
+                    "children": []
+                },
+                {
+                    "desiredTagName": "dc:language",
+                    "attributesObj": {},
+                    "innerText": "en-GB",
+                    "isSelfClosing": false,
+                    "children": []
+                },
+                {
+                    "desiredTagName": "dc:language",
+                    "attributesObj": {},
+                    "innerText": "en-US",
+                    "isSelfClosing": false,
+                    "children": []
+                },
+                {
+                    "desiredTagName": "dc:identifier",
+                    "attributesObj": {
+                        "id": "bookid"
+                    },
+                    "innerText": "urn:uuid:BE2A8757-387D-4623-B8FE-3388EE5B7404",
+                    "isSelfClosing": false,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "desiredTagName": "manifest",
+            "attributesObj": {},
+            "innerText": "",
+            "isSelfClosing": false,
+            "children": [
+                {
+                    "desiredTagName": "item",
+                    "attributesObj": {
+                        "id": "A01_WITH9145_07_SE_FM_AP-1",
+                        "href": "A01_WITH9145_07_SE_FM_AP-1.xhtml",
+                        "media-type": "application/xhtml+xml"
+                    },
+                    "innerText": "",
+                    "isSelfClosing": true,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "desiredTagName": "spine",
+            "attributesObj": {
+                "toc": "ncx"
+            },
+            "innerText": "",
+            "isSelfClosing": false,
+            "children": [
+                {
+                    "desiredTagName": "itemref",
+                    "attributesObj": {
+                        "idref": "cover.xhtml"
+                    },
+                    "innerText": "",
+                    "isSelfClosing": true,
+                    "children": []
+                },
+                {
+                    "desiredTagName": "itemref",
+                    "attributesObj": {
+                        "idref": "toc"
+                    },
+                    "innerText": "",
+                    "isSelfClosing": true,
+                    "children": []
+                },
+                {
+                    "desiredTagName": "itemref",
+                    "attributesObj": {
+                        "idref": "chapter-1.xhtml"
+                    },
+                    "innerText": "",
+                    "isSelfClosing": true,
+                    "children": []
+                },
+                {
+                    "desiredTagName": "itemref",
+                    "attributesObj": {
+                        "idref": "chapter-2.xhtml"
+                    },
+                    "innerText": "",
+                    "isSelfClosing": true,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "desiredTagName": "guide",
+            "attributesObj": {},
+            "innerText": "",
+            "isSelfClosing": false,
+            "children": [
+                {
+                    "desiredTagName": "reference",
+                    "attributesObj": {
+                        "title": "Cover page",
+                        "type": "cover",
+                        "href": "Text/cover.xhtml"
+                    },
+                    "innerText": "",
+                    "isSelfClosing": true,
+                    "children": []
+                },
+                {
+                    "desiredTagName": "reference",
+                    "attributesObj": {
+                        "title": "Table of content",
+                        "type": "toc",
+                        "href": "toc.xhtml"
+                    },
+                    "innerText": "",
+                    "isSelfClosing": true,
+                    "children": []
+                }
+            ]
+        }
+    ]
+}
