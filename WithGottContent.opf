@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<package version="3.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="bookid" prefix="rendition: http://www.idpf.org/vocab/rendition/# ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+		<meta name="generator" content="Adobe InDesign 15.0.1" />
+		<meta name="cover" content="x1.png" />
+		<meta property="ibooks:specified-fonts">true</meta>
+		<dc:title>A01_WITH9145_07_SE_FM_AP</dc:title>
+		<dc:date>2020-02-18T23:41:37Z</dc:date>
+		<dc:language>en-GB</dc:language>
+		<dc:language>en-US</dc:language>
+		<meta property="dcterms:modified">2020-02-18T23:41:37Z</meta>
+		<dc:identifier id="bookid">urn:uuid:BE2A8757-387D-4623-B8FE-3388EE5B7404</dc:identifier>
+		<!--fixed-layout options-->
+		<meta property="rendition:layout">pre-paginated</meta>
+		<meta property="rendition:orientation">landscape</meta>
+		<meta property="rendition:spread">both</meta>
+	</metadata>
+	<manifest>
+		<item id="A01_WITH9145_07_SE_FM_AP-1" href="A01_WITH9145_07_SE_FM_AP-1.xhtml" media-type="application/xhtml+xml" />
+		<item id="A01_WITH9145_07_SE_FM_AP-2" href="A01_WITH9145_07_SE_FM_AP-2.xhtml" media-type="application/xhtml+xml" />
+		<item id="A01_WITH9145_07_SE_FM_AP-3" href="A01_WITH9145_07_SE_FM_AP-3.xhtml" media-type="application/xhtml+xml" />
+		<item id="A01_WITH9145_07_SE_FM_AP-4" href="A01_WITH9145_07_SE_FM_AP-4.xhtml" media-type="application/xhtml+xml" />
+		<item id="A01_WITH9145_07_SE_FM_AP-5" href="A01_WITH9145_07_SE_FM_AP-5.xhtml" media-type="application/xhtml+xml" />
+		<item id="A01_WITH9145_07_SE_FM_AP-6" href="A01_WITH9145_07_SE_FM_AP-6.xhtml" media-type="application/xhtml+xml" />
+		<item id="A01_WITH9145_07_SE_FM_AP-7" href="A01_WITH9145_07_SE_FM_AP-7.xhtml" media-type="application/xhtml+xml" />
+		<item id="A01_WITH9145_07_SE_FM_AP-8" href="A01_WITH9145_07_SE_FM_AP-8.xhtml" media-type="application/xhtml+xml" />
+		<item id="A01_WITH9145_07_SE_FM_AP-9" href="A01_WITH9145_07_SE_FM_AP-9.xhtml" media-type="application/xhtml+xml" />
+		<item id="A01_WITH9145_07_SE_FM_AP-10" href="A01_WITH9145_07_SE_FM_AP-10.xhtml" media-type="application/xhtml+xml" />
+		<item id="A01_WITH9145_07_SE_FM_AP-11" href="A01_WITH9145_07_SE_FM_AP-11.xhtml" media-type="application/xhtml+xml" />
+		<item id="A01_WITH9145_07_SE_FM_AP-12" href="A01_WITH9145_07_SE_FM_AP-12.xhtml" media-type="application/xhtml+xml" />
+		<item id="A01_WITH9145_07_SE_FM_AP-13" href="A01_WITH9145_07_SE_FM_AP-13.xhtml" media-type="application/xhtml+xml" />
+		<item id="A01_WITH9145_07_SE_FM_AP-14" href="A01_WITH9145_07_SE_FM_AP-14.xhtml" media-type="application/xhtml+xml" />
+		<item id="A01_WITH9145_07_SE_FM_AP-15" href="A01_WITH9145_07_SE_FM_AP-15.xhtml" media-type="application/xhtml+xml" />
+		<item id="A01_WITH9145_07_SE_FM_AP-16" href="A01_WITH9145_07_SE_FM_AP-16.xhtml" media-type="application/xhtml+xml" />
+		<item id="A01_WITH9145_07_SE_FM_AP-17" href="A01_WITH9145_07_SE_FM_AP-17.xhtml" media-type="application/xhtml+xml" />
+		<item id="A01_WITH9145_07_SE_FM_AP-18" href="A01_WITH9145_07_SE_FM_AP-18.xhtml" media-type="application/xhtml+xml" />
+		<item id="A01_WITH9145_07_SE_FM_AP-19" href="A01_WITH9145_07_SE_FM_AP-19.xhtml" media-type="application/xhtml+xml" />
+		<item id="A01_WITH9145_07_SE_FM_AP-20" href="A01_WITH9145_07_SE_FM_AP-20.xhtml" media-type="application/xhtml+xml" />
+		<item id="A01_WITH9145_07_SE_FM_AP-21" href="A01_WITH9145_07_SE_FM_AP-21.xhtml" media-type="application/xhtml+xml" />
+		<item id="A01_WITH9145_07_SE_FM_AP-22" href="A01_WITH9145_07_SE_FM_AP-22.xhtml" media-type="application/xhtml+xml" />
+		<item id="A01_WITH9145_07_SE_FM_AP-23" href="A01_WITH9145_07_SE_FM_AP-23.xhtml" media-type="application/xhtml+xml" />
+		<item id="A01_WITH9145_07_SE_FM_AP-24" href="A01_WITH9145_07_SE_FM_AP-24.xhtml" media-type="application/xhtml+xml" />
+		<item id="A01_WITH9145_07_SE_FM_AP-25" href="A01_WITH9145_07_SE_FM_AP-25.xhtml" media-type="application/xhtml+xml" />
+		<item id="A01_WITH9145_07_SE_FM_AP-26" href="A01_WITH9145_07_SE_FM_AP-26.xhtml" media-type="application/xhtml+xml" />
+		<item id="toc" href="toc.xhtml" media-type="application/xhtml+xml" properties="nav" />
+		<item id="idGeneratedStyles.css" href="css/idGeneratedStyles.css" media-type="text/css" />
+		<item id="PlayfairDisplay-Regular.ttf" href="font/PlayfairDisplay-Regular.ttf" media-type="application/x-font-ttf" />
+		<item id="x1.png" href="image/1.png" media-type="image/png" properties="cover-image" />
+		<item id="x3.png" href="image/3.png" media-type="image/png" />
+		<item id="x13.png" href="image/13.png" media-type="image/png" />
+		<item id="x16.png" href="image/16.png" media-type="image/png" />
+		<item id="x22.png" href="image/22.png" media-type="image/png" />
+		<item id="x27.png" href="image/27.png" media-type="image/png" />
+		<item id="x30.png" href="image/30.png" media-type="image/png" />
+		<item id="x33.png" href="image/33.png" media-type="image/png" />
+		<item id="x37.png" href="image/37.png" media-type="image/png" />
+		<item id="x38.png" href="image/38.png" media-type="image/png" />
+		<item id="x41.png" href="image/41.png" media-type="image/png" />
+		<item id="x42.png" href="image/42.png" media-type="image/png" />
+		<item id="x43.png" href="image/43.png" media-type="image/png" />
+		<item id="x48.png" href="image/48.png" media-type="image/png" />
+		<item id="x64.png" href="image/64.png" media-type="image/png" />
+		<item id="x66.png" href="image/66.png" media-type="image/png" />
+		<item id="x69.png" href="image/69.png" media-type="image/png" />
+		<item id="x70.png" href="image/70.png" media-type="image/png" />
+		<item id="x73.png" href="image/73.png" media-type="image/png" />
+		<item id="x74.png" href="image/74.png" media-type="image/png" />
+		<item id="x77.png" href="image/77.png" media-type="image/png" />
+		<item id="x78.png" href="image/78.png" media-type="image/png" />
+		<item id="x79.png" href="image/79.png" media-type="image/png" />
+		<item id="x80.png" href="image/80.png" media-type="image/png" />
+		<item id="x81.png" href="image/81.png" media-type="image/png" />
+		<item id="x82.png" href="image/82.png" media-type="image/png" />
+		<item id="x83.png" href="image/83.png" media-type="image/png" />
+		<item id="x84.png" href="image/84.png" media-type="image/png" />
+		<item id="x85.png" href="image/85.png" media-type="image/png" />
+		<item id="x87.png" href="image/87.png" media-type="image/png" />
+		<item id="x89.png" href="image/89.png" media-type="image/png" />
+		<item id="x91.png" href="image/91.png" media-type="image/png" />
+		<item id="x96.png" href="image/96.png" media-type="image/png" />
+		<item id="x97.png" href="image/97.png" media-type="image/png" />
+		<item id="x101.png" href="image/101.png" media-type="image/png" />
+		<item id="x103.png" href="image/103.png" media-type="image/png" />
+		<item id="x107.png" href="image/107.png" media-type="image/png" />
+		<item id="x109.png" href="image/109.png" media-type="image/png" />
+		<item id="x117.png" href="image/117.png" media-type="image/png" />
+		<item id="x118.png" href="image/118.png" media-type="image/png" />
+		<item id="x120.png" href="image/120.png" media-type="image/png" />
+		<item id="x121.png" href="image/121.png" media-type="image/png" />
+		<item id="x128.png" href="image/128.png" media-type="image/png" />
+		<item id="x131.png" href="image/131.png" media-type="image/png" />
+		<item id="x132.png" href="image/132.png" media-type="image/png" />
+		<item id="x133.png" href="image/133.png" media-type="image/png" />
+		<item id="x135.png" href="image/135.png" media-type="image/png" />
+		<item id="x136.png" href="image/136.png" media-type="image/png" />
+		<item id="x143.png" href="image/143.png" media-type="image/png" />
+		<item id="x146.png" href="image/146.png" media-type="image/png" />
+		<item id="x148.png" href="image/148.png" media-type="image/png" />
+		<item id="x150.png" href="image/150.png" media-type="image/png" />
+		<item id="x160.png" href="image/160.png" media-type="image/png" />
+		<item id="x169.png" href="image/169.png" media-type="image/png" />
+		<item id="x171.png" href="image/171.png" media-type="image/png" />
+		<item id="x172.png" href="image/172.png" media-type="image/png" />
+		<item id="x174.png" href="image/174.png" media-type="image/png" />
+		<item id="x175.png" href="image/175.png" media-type="image/png" />
+		<item id="x178.png" href="image/178.png" media-type="image/png" />
+		<item id="x179.png" href="image/179.png" media-type="image/png" />
+		<item id="x182.png" href="image/182.png" media-type="image/png" />
+		<item id="x200.png" href="image/200.png" media-type="image/png" />
+		<item id="x2691400001.png" href="image/2691400001.png" media-type="image/png" />
+		<item id="x2691400002.png" href="image/2691400002.png" media-type="image/png" />
+		<item id="x2691400004.png" href="image/2691400004.png" media-type="image/png" />
+		<item id="x2691400005.png" href="image/2691400005.png" media-type="image/png" />
+		<item id="x2691400006.png" href="image/2691400006.png" media-type="image/png" />
+		<item id="x2691400007.png" href="image/2691400007.png" media-type="image/png" />
+		<item id="x2691400008.png" href="image/2691400008.png" media-type="image/png" />
+		<item id="x2691400009.png" href="image/2691400009.png" media-type="image/png" />
+		<item id="x2691400010.png" href="image/2691400010.png" media-type="image/png" />
+		<item id="x2691400011.png" href="image/2691400011.png" media-type="image/png" />
+		<item id="x2691400012.png" href="image/2691400012.png" media-type="image/png" />
+		<item id="x2691400013.png" href="image/2691400013.png" media-type="image/png" />
+		<item id="x2691400014.png" href="image/2691400014.png" media-type="image/png" />
+		<item id="x2691400015.png" href="image/2691400015.png" media-type="image/png" />
+		<item id="x2691400016.png" href="image/2691400016.png" media-type="image/png" />
+		<item id="x2691400017.png" href="image/2691400017.png" media-type="image/png" />
+		<item id="x2691400018.png" href="image/2691400018.png" media-type="image/png" />
+		<item id="x2691400019.png" href="image/2691400019.png" media-type="image/png" />
+		<item id="x2691400020.png" href="image/2691400020.png" media-type="image/png" />
+		<item id="x2691400021.png" href="image/2691400021.png" media-type="image/png" />
+		<item id="x2691400022.png" href="image/2691400022.png" media-type="image/png" />
+		<item id="x2691400023.png" href="image/2691400023.png" media-type="image/png" />
+		<item id="x2691400024.png" href="image/2691400024.png" media-type="image/png" />
+		<item id="x2691400025.png" href="image/2691400025.png" media-type="image/png" />
+		<item id="x2691400026.png" href="image/2691400026.png" media-type="image/png" />
+		<item id="x2691400028.png" href="image/2691400028.png" media-type="image/png" />
+		<item id="x2691400029.png" href="image/2691400029.png" media-type="image/png" />
+		<item id="x2691408010.png" href="image/2691408010.png" media-type="image/png" />
+		<item id="x2691416028.png" href="image/2691416028.png" media-type="image/png" />
+		<item id="Cover_843962852_cmyk.jpg" href="image/Cover_843962852_cmyk.jpg" media-type="image/jpeg" />
+		<item id="DataGraphic_Icon.png" href="image/DataGraphic_Icon.png" media-type="image/png" />
+		<item id="etext_logo.png" href="image/etext_logo.png" media-type="image/png" />
+		<item id="FSC_C132124_MIX_Paper_Portrait_BlackOnWhite_r_PMFvkH.png" href="image/FSC_C132124_MIX_Paper_Portrait_BlackOnWhite_r_PMFvkH.png" media-type="image/png" />
+		<item id="laptop_shutterstock_99124856.png" href="image/laptop_shutterstock_99124856.png" media-type="image/png" />
+		<item id="M05_WITH9145_07_SE_C05.png" href="image/M05_WITH9145_07_SE_C05.png" media-type="image/png" />
+		<item id="M06_WITH9145_07_SE_C06.png" href="image/M06_WITH9145_07_SE_C06.png" media-type="image/png" />
+		<item id="M06_WITH9145_07_SE_C061.png" href="image/M06_WITH9145_07_SE_C061.png" media-type="image/png" />
+		<item id="M06_WITH9145_07_SE_C062.png" href="image/M06_WITH9145_07_SE_C062.png" media-type="image/png" />
+		<item id="M06_WITH9145_07_SE_C063.png" href="image/M06_WITH9145_07_SE_C063.png" media-type="image/png" />
+		<item id="M08B_WITH9145_07_SE_C08.png" href="image/M08B_WITH9145_07_SE_C08.png" media-type="image/png" />
+		<item id="M14_WITH9145_07_SE_C14.png" href="image/M14_WITH9145_07_SE_C14.png" media-type="image/png" />
+		<item id="M14_WITH9145_07_SE_C141.png" href="image/M14_WITH9145_07_SE_C141.png" media-type="image/png" />
+		<item id="PearsonLogo_Horizontal_Blk.png" href="image/PearsonLogo_Horizontal_Blk.png" media-type="image/png" />
+		<item id="PearsonLogo_Horizontal_Blk1.png" href="image/PearsonLogo_Horizontal_Blk1.png" media-type="image/png" />
+		<item id="PearsonLogo_Horizontal_Blk2.png" href="image/PearsonLogo_Horizontal_Blk2.png" media-type="image/png" />
+		<item id="PearsonLogo_Horizontal_Mono_Blk.png" href="image/PearsonLogo_Horizontal_Mono_Blk.png" media-type="image/png" />
+		<item id="Screen_Shot_2019-10-17_at_12.44.03_PM.jpg" href="image/Screen_Shot_2019-10-17_at_12.44.03_PM.jpg" media-type="image/jpeg" />
+		<item id="tablet_shutterstock_99347093.png" href="image/tablet_shutterstock_99347093.png" media-type="image/png" />
+		<item id="WITH9145_7_mrktg.png" href="image/WITH9145_7_mrktg.png" media-type="image/png" />
+		<item id="Withgott_DSM.png" href="image/Withgott_DSM.png" media-type="image/png" />
+		<item id="Withgott_eText_2.png" href="image/Withgott_eText_2.png" media-type="image/png" />
+		<item id="Withgott_graphits.laptop.png" href="image/Withgott_graphits.laptop.png" media-type="image/png" />
+		<item id="Withgott_LC_laptop.jpg" href="image/Withgott_LC_laptop.jpg" media-type="image/jpeg" />
+		<item id="Withgott_RTG2_laptop.png" href="image/Withgott_RTG2_laptop.png" media-type="image/png" />
+	</manifest>
+	<spine>
+		<itemref idref="A01_WITH9145_07_SE_FM_AP-1" properties="page-spread-right" />
+		<itemref idref="A01_WITH9145_07_SE_FM_AP-2" properties="page-spread-left" />
+		<itemref idref="A01_WITH9145_07_SE_FM_AP-3" properties="page-spread-right" />
+		<itemref idref="A01_WITH9145_07_SE_FM_AP-4" properties="page-spread-left" />
+		<itemref idref="A01_WITH9145_07_SE_FM_AP-5" properties="page-spread-right" />
+		<itemref idref="A01_WITH9145_07_SE_FM_AP-6" properties="page-spread-left" />
+		<itemref idref="A01_WITH9145_07_SE_FM_AP-7" properties="page-spread-right" />
+		<itemref idref="A01_WITH9145_07_SE_FM_AP-8" properties="page-spread-left" />
+		<itemref idref="A01_WITH9145_07_SE_FM_AP-9" properties="page-spread-right" />
+		<itemref idref="A01_WITH9145_07_SE_FM_AP-10" properties="page-spread-left" />
+		<itemref idref="A01_WITH9145_07_SE_FM_AP-11" properties="page-spread-right" />
+		<itemref idref="A01_WITH9145_07_SE_FM_AP-12" properties="page-spread-left" />
+		<itemref idref="A01_WITH9145_07_SE_FM_AP-13" properties="page-spread-right" />
+		<itemref idref="A01_WITH9145_07_SE_FM_AP-14" properties="page-spread-left" />
+		<itemref idref="A01_WITH9145_07_SE_FM_AP-15" properties="page-spread-right" />
+		<itemref idref="A01_WITH9145_07_SE_FM_AP-16" properties="page-spread-left" />
+		<itemref idref="A01_WITH9145_07_SE_FM_AP-17" properties="page-spread-right" />
+		<itemref idref="A01_WITH9145_07_SE_FM_AP-18" properties="page-spread-left" />
+		<itemref idref="A01_WITH9145_07_SE_FM_AP-19" properties="page-spread-right" />
+		<itemref idref="A01_WITH9145_07_SE_FM_AP-20" properties="page-spread-left" />
+		<itemref idref="A01_WITH9145_07_SE_FM_AP-21" properties="page-spread-right" />
+		<itemref idref="A01_WITH9145_07_SE_FM_AP-22" properties="page-spread-left" />
+		<itemref idref="A01_WITH9145_07_SE_FM_AP-23" properties="page-spread-right" />
+		<itemref idref="A01_WITH9145_07_SE_FM_AP-24" properties="page-spread-left" />
+		<itemref idref="A01_WITH9145_07_SE_FM_AP-25" properties="page-spread-right" />
+		<itemref idref="A01_WITH9145_07_SE_FM_AP-26" properties="page-spread-left" />
+	</spine>
+</package>
