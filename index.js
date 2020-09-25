@@ -98,7 +98,7 @@ const createBasicOPF = (nameOfFile) => {
 
 // Need to export methods 
 // TODO: Create proper JS module
-// createBasicOPF('testMonkey')
+createBasicOPF('contentPrime')
 
 exports.createBasicOPF = createBasicOPF;
 exports.createXMLHeader = createXMLHeader;

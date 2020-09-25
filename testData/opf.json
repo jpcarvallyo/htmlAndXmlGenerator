@@ -1,7 +1,9 @@
 {
     "desiredTagName": "package",
     "attributesObj": {
-        "xmlns": "http://www.idpf.org/2007/opf"
+        "xmlns": "http://www.idpf.org/2007/opf",
+        "xmlns:opf": "http://www.idpf.org/2007/opf",
+        "version": "3.0"
     },
     "innerText": "",
     "isSelfClosing": false,
