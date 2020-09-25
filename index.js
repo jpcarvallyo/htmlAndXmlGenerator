@@ -2,7 +2,7 @@ const fs = require('fs');
 const opfConfig = require('./testData/opf')
 
 
-function createTag(configObj) {
+const createTag = (configObj) => {
     // Expects an object
     // with the following keys (desiredTagName, attributesObj, innerText, isSelfClosing)
     const { desiredTagName, attributesObj, innerText, isSelfClosing, children } = configObj;
@@ -67,7 +67,7 @@ function createTag(configObj) {
 // Need to create the doctype: 
 // Example of single tag creation
 // <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-function createXMLHeader() {
+const createXMLHeader = () => {
     const xmlHeaderConfig = {
         desiredTagName: "?xml",
         attributesObj: { version: "1.0", encoding: "UTF-8", standalone: "yes" },
@@ -78,27 +78,31 @@ function createXMLHeader() {
     return createTag(xmlHeaderConfig)
 }
 
-// Package contains main contents
+// Package contains main contents 🍄
 const packageTag = createTag(opfConfig);
 
 
 // Generate Generic OPF file based off of CONFIG
-function createBasicOPF() {
+const createBasicOPF = (nameOfFile) => {
 
     // // This writes the xml STRING to the file
     fs.writeFile(
-        `./output/contentPrime.opf`,
+        `./output/${nameOfFile}.opf`,
         createXMLHeader() + packageTag,
         function (err) {
             if (err) return console.log(err);
-            console.log("Wrote to prime file");
+            console.log(`Wrote to ${nameOfFile} file`);
         }
     );
 }
 
 // Need to export methods 
 // TODO: Create proper JS module
-createBasicOPF()
+// createBasicOPF('testMonkey')
+
+exports.createBasicOPF = createBasicOPF;
+exports.createXMLHeader = createXMLHeader;
+exports.createTag = createTag;
 
 
 
