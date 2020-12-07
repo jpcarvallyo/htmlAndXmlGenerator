@@ -1,0 +1,164 @@
+{
+    "desiredTagName": "",
+    "attributesObj": {},
+    "innerText": "",
+    "isSelfClosing": false,
+    "xmlOrHtml": "html",
+    "children": [
+        {
+            "desiredTagName": "!DOCTYPE html",
+            "attributesObj": {},
+            "innerText": "",
+            "isSelfClosing": true,
+            "children": []
+        },
+        {
+            "desiredTagName": "html",
+            "attributesObj": {},
+            "innerText": "",
+            "isSelfClosing": false,
+            "children": [
+                {
+                    "desiredTagName": "head",
+                    "attributesObj": {},
+                    "innerText": "",
+                    "isSelfClosing": false,
+                    "children": [
+                        {
+                            "desiredTagName": "meta",
+                            "attributesObj": {
+                                "charset": "utf-8"
+                            },
+                            "innerText": "",
+                            "isSelfClosing": true,
+                            "children": []
+                        },
+                        {
+                            "desiredTagName": "title",
+                            "attributesObj": {},
+                            "innerText": "MarkSheet",
+                            "isSelfClosing": false,
+                            "children": []
+                        },
+                        {
+                            "desiredTagName": "meta",
+                            "attributesObj": {
+                                "name": "description",
+                                "content": "A simple HTML and CSS tutorial"
+                            },
+                            "innerText": "",
+                            "isSelfClosing": true,
+                            "children": []
+                        },
+                        {
+                            "desiredTagName": "link",
+                            "attributesObj": {
+                                "href": "https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap",
+                                "rel": "stylesheet"
+                            },
+                            "innerText": "",
+                            "isSelfClosing": true,
+                            "children": []
+                        },
+                        {
+                            "desiredTagName": "link",
+                            "attributesObj": {
+                                "href": "../styles/new.css",
+                                "rel": "stylesheet"
+                            },
+                            "innerText": "",
+                            "isSelfClosing": true,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "desiredTagName": "body",
+                    "attributesObj": {},
+                    "innerText": "",
+                    "isSelfClosing": false,
+                    "children": [
+                        {
+                            "desiredTagName": "h1",
+                            "attributesObj": {
+                                "id": "king"
+                            },
+                            "innerText": "King 👑, greetings",
+                            "isSelfClosing": false,
+                            "children": []
+                        },
+                        {
+                            "desiredTagName": "ol",
+                            "attributesObj": {},
+                            "innerText": "",
+                            "isSelfClosing": false,
+                            "children": [
+                                {
+                                    "desiredTagName": "li",
+                                    "attributesObj": {},
+                                    "innerText": "Beans",
+                                    "isSelfClosing": false,
+                                    "children": []
+                                },
+                                {
+                                    "desiredTagName": "li",
+                                    "attributesObj": {
+                                        "style": "color: black; font-size: '16px'"
+                                    },
+                                    "innerText": "Apples",
+                                    "isSelfClosing": false,
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "desiredTagName": "button",
+                            "attributesObj": {
+                                "style": "color: black; font-size: 32px;background-color: green;border: none; padding: 10px 5px",
+                                "onclick": "",
+                                "id": "countBtn",
+                                "data-count": 0
+                            },
+                            "innerText": "Hello 🍄",
+                            "isSelfClosing": false,
+                            "children": []
+                        },
+                        {
+                            "desiredTagName": "button",
+                            "attributesObj": {
+                                "style": "color: black; font-size: 32px;background-color: green;border: none; padding: 10px 5px",
+                                "onclick": "",
+                                "id": "alert-btn"
+                            },
+                            "innerText": "Alert my dude 🍄",
+                            "isSelfClosing": false,
+                            "children": []
+                        },
+                        {
+                            "desiredTagName": "script",
+                            "attributesObj": {
+                                "src": "../src/test.js",
+                                "type": "text/javascript",
+                                "async": "async"
+                            },
+                            "innerText": "",
+                            "isSelfClosing": false,
+                            "children": []
+                        },
+                        {
+                            "desiredTagName": "script",
+                            "attributesObj": {
+                                "src": "../src/test2.js",
+                                "type": "text/javascript",
+                                "async": "async"
+                            },
+                            "innerText": "",
+                            "isSelfClosing": false,
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

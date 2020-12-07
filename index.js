@@ -1,11 +1,13 @@
 const fs = require('fs');
-const opfConfig = require('./testData/opf')
+const { start } = require('repl');
+const opfConfig = require('./testData/opf');
+const html = require('./testData/html.json')
 
 
 const createTag = (configObj) => {
     // Expects an object
     // with the following keys (desiredTagName, attributesObj, innerText, isSelfClosing)
-    const { desiredTagName, attributesObj, innerText, isSelfClosing, children } = configObj;
+    let { desiredTagName, attributesObj, innerText, isSelfClosing, children, xmlOrHtml, xmlStyling } = configObj;
 
     function isEmpty(object) {
         return Object.keys(object).length === 0 ? true : false;
@@ -20,7 +22,7 @@ const createTag = (configObj) => {
     }
 
 
-    const endTag = desiredTagName[0] === "?" || isSelfClosing ? "" : `</${desiredTagName}>`;
+    let endTag = desiredTagName[0] === "?" || isSelfClosing ? "" : `</${desiredTagName}>`;
 
 
     function createAttributes() {
@@ -41,7 +43,7 @@ const createTag = (configObj) => {
         }
     }
 
-    const attributesString = createAttributes();
+    let attributesString = createAttributes();
 
     function createInnerContent(innerText) {
         if (innerText && children.length === 0) {
@@ -60,8 +62,27 @@ const createTag = (configObj) => {
             return ""
         }
     }
-
-    return `${startTag}${attributesString}${createInnerContent(innerText)}${endTag}`
+    if (desiredTagName === "" && children[0].desiredTagName === "!DOCTYPE html") {
+        // console.log("hi there", desiredTagName);
+        const newTag = `<${children[0].desiredTagName}`;
+        // endTag = ""
+        // attributesString = ""
+        // if (children[0].desiredTagName === "!DOCTYPE html") {
+        //     console.log("START TAG: ", startTag);
+        //     startTag = "!DOCTYPE html"
+        // console.log('NEWTAG: ', newTag);
+        // console.log('InnerContent: ', createInnerContent(innerText));
+        return `${createInnerContent(innerText)}`.replace('/>', ">")
+    } else if (desiredTagName.indexOf("?xml") !== -1 && xmlOrHtml === "xml") {
+        // if (desiredTagName === "?xml") {
+        //     console.log("CONFIG: ", "hi bitch");
+        //     console.log("START tag: ", startTag);
+        // }
+        console.log(`${startTag}${attributesString}${createInnerContent(innerText)}${endTag}`.replace("/>", "?>"));
+        return `${startTag}${attributesString}${createInnerContent(innerText)}${endTag}`.replace("/>", "?>")
+    } else {
+        return `${startTag}${attributesString}${createInnerContent(innerText)}${endTag}`
+    }
 }
 
 // Need to create the doctype: 
@@ -73,6 +94,7 @@ const createXMLHeader = () => {
         attributesObj: { version: "1.0", encoding: "UTF-8", standalone: "yes" },
         innerText: "",
         isSelfClosing: false,
+        xmlOrHtml: "xml",
         children: []
     }
     return createTag(xmlHeaderConfig)
@@ -96,13 +118,39 @@ const createBasicOPF = (nameOfFile) => {
     );
 }
 
+const createXML = (nameOfFile, xmlConfig) => {
+    // // This writes the xml STRING to the file
+    fs.writeFile(
+        `./output/${nameOfFile}.xml`,
+        createTag(xmlConfig).replace("<>", "").replace("</>", ""),
+        function (err) {
+            if (err) return console.log(err);
+            console.log(`Wrote to ${nameOfFile} file`);
+        }
+    );
+}
+
+const createHTML = (nameOfFile, htmlConfig) => {
+    // // This writes the xml STRING to the file
+    fs.writeFile(
+        `./output/${nameOfFile}.html`,
+        createTag(htmlConfig),
+        function (err) {
+            if (err) return console.log(err);
+            console.log(`Wrote to ${nameOfFile} file`);
+        }
+    );
+}
+
 // Need to export methods 
 // TODO: Create proper JS module
-createBasicOPF('contentPrime')
+// createBasicOPF('contentPrime')
 
 exports.createBasicOPF = createBasicOPF;
+exports.createHTML = createHTML;
 exports.createXMLHeader = createXMLHeader;
 exports.createTag = createTag;
+exports.createXML = createXML;
 
 
 

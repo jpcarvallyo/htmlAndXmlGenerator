@@ -1,0 +1,11 @@
+#king {
+    background-color: black;
+    color: green; 
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif
+}
+
+li {
+    color: black; 
+    font-size: 40px
+}

@@ -1,0 +1,57 @@
+{
+    "desiredTagName": "",
+    "attributesObj": {},
+    "innerText": "",
+    "isSelfClosing": false,
+    "xmlOrHtml": "xml",
+    "xmlStyling": true,
+    "children": [
+        {
+            "desiredTagName": "?xml",
+            "attributesObj": {
+                "version": "1.0",
+                "standalone": "no"
+            },
+            "innerText": "",
+            "isSelfClosing": true,
+            "xmlOrHtml": "xml",
+            "children": []
+        },
+        {
+            "desiredTagName": "?xml-stylesheet",
+            "attributesObj": {
+                "type": "text/css",
+                "href": "../styles/xmlStylesheet.css"
+            },
+            "innerText": "",
+            "isSelfClosing": true,
+            "xmlOrHtml": "xml",
+            "children": []
+        },
+        {
+            "desiredTagName": "people",
+            "attributesObj": {},
+            "innerText": "",
+            "isSelfClosing": false,
+            "children": [
+                {
+                    "desiredTagName": "husband",
+                    "attributesObj": {
+                        "employed": "Yes"
+                    },
+                    "innerText": "",
+                    "isSelfClosing": false,
+                    "children": [
+                        {
+                            "desiredTagName": "name",
+                            "attributesObj": {},
+                            "innerText": "Mark",
+                            "isSelfClosing": false,
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
